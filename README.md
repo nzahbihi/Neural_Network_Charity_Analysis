@@ -8,7 +8,7 @@ The purpose of this analysis is to create a binary classifier, capable of predic
 
 ## Results
 * What variable(s) are considered as our target(s) for the model?
-    - For our neural network model, the variable that was our target was "IS_SUCCESSFUL". This was decided based on the fact that we are specifically looking into whether applicants will be successful if they receive funding.
+    - The variable that was our target was "IS_SUCCESSFUL". This was decided based on the fact that we are specifically looking into whether applicants will be successful if they receive funding.
     ![Variables and Features](/assets/images/variables_features.png)
 
 * What variable(s) are considered to be our features for the model?
