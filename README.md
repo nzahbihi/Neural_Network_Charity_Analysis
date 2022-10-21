@@ -10,7 +10,7 @@ The purpose of this analysis is to create a binary classifier, capable of predic
 * What variable(s) are considered as our target(s) for the model?
     - For our neural network model, the variable that was our target was "IS_SUCCESSFUL". This was decided based on the fact that we are specifically looking into whether applicants will be successful if they receive funding.
 
-    ![Variables and Features](/assets/images/variables_features.png)
+    - ![Variables and Features](/assets/images/variables_features.png)
 
 * What variable(s) are considered to be our features for the model?
     - Our features were the rest of the variables in the dataset, as we believe they contribute to the success of the applicant.
@@ -27,17 +27,17 @@ The purpose of this analysis is to create a binary classifier, capable of predic
 * What steps did we take to try and increase model performance?
     - We attempted by increasing the number of neurons to 140, adding a third hidden layer, and changing the activation function from "relu" to "tanh".
 
-    The results of our first optimization model: increasing the number of neurons to 140.
+    - The results of our first optimization model: increasing the number of neurons to 140.
 
-    ![Increased Neurons](/assets/images/increased_neurons_summary.png)
+    - ![Increased Neurons](/assets/images/increased_neurons_summary.png)
 
-    The results of our second optimization model: including a third hidden layer.
+    - The results of our second optimization model: including a third hidden layer.
 
-    ![Third Hidden Layer](/assets/images/third_hidden_layer_summary.png)
+    - ![Third Hidden Layer](/assets/images/third_hidden_layer_summary.png)
 
-    The results of our third optimization model: replacing relu with tanh for the activation function.
+    - The results of our third optimization model: replacing relu with tanh for the activation function.
 
-    ![tanh Activation Model](/assets/images/tanh_model_summary.png)
+    - ![tanh Activation Model](/assets/images/tanh_model_summary.png)
 
 ## Summary
 Overall, the deep learning model has room for improvement. As is the case with neural network models, they face hurdles such as computing power and resources. If we were able to improve our computer's performance, we could possibly reach the target model performance.
