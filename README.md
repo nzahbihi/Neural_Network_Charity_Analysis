@@ -8,23 +8,29 @@ The purpose of this analysis is to create a binary classifier, capable of predic
 
 ## Results
 * What variable(s) are considered as our target(s) for the model?
+
     For our neural network model, the variable that was our target was "IS_SUCCESSFUL". This was decided based on the fact that we are specifically looking into whether applicants will be successful if they receive funding.
 
     ![Variables and Features](/assets/images/variables_features.png)
 
 * What variable(s) are considered to be our features for the model?
+
     Our features were the rest of the variables in the dataset, as we believe they contribute to the success of the applicant.
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+
     The variables that were removed were "EIN" and "NAME". We did not consider these variables necessary for the dataset, as the name or EIN of the would not be a factor for being successful.
 
 * How many neurons, layers, and activation functions did we select for the neural network model?
+
     For our base neural network model, we had 110 neurons, 2 hidden layers, and our activation function was relu.
 
 * Were we able to achieve the target model performance?
+
     We were unable to achieve the 75% accuracy target.
 
 * What steps did we take to try and increase model performance?
+
     We attempted by increasing the number of neurons to 140, adding a third hidden layer, and changing the activation function from "relu" to "tanh".
 
     The results of our first optimization model: increasing the number of neurons to 140.
@@ -33,7 +39,7 @@ The purpose of this analysis is to create a binary classifier, capable of predic
 
     The results of our second optimization model: including a third hidden layer.
 
-    ![Third Hidden Layer](/assets/images/third_hidden_layer.png)
+    ![Third Hidden Layer](/assets/images/third_hidden_layer_summary.png)
 
     The results of our third optimization model: replacing relu with tanh for the activation function.
 
